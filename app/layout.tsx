@@ -21,10 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} text-default-text bg-page`}>
+      <body className={`${inter.className} text-default-text`}>
         <div className="flex flex-col h-screen max-h-screen">
           <Nav />
-          <div>{children}</div>
+          <div className="flex-grow overflow-y-auto bg-page">{children}</div>
         </div>
       </body>
     </html>
