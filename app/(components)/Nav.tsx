@@ -4,14 +4,13 @@ import Link from "next/link";
 
 const Nav = () => {
   return (
-    <nav className="flex justify-between bg-nav">
+    <nav className="flex items-center justify-between bg-nav">
       <div className="flex items-center space-x-4">
         <Link href="/">
-          <FontAwesomeIcon icon={faHome} className="icon" />
+          <FontAwesomeIcon icon={faHome} className="w-10 h-10" />
         </Link>
         <Link href="ticket/new">
-          <FontAwesomeIcon icon={faTicket} className="icon" />
-          <h1>Tickets</h1>
+          <FontAwesomeIcon icon={faTicket} className="w-10 h-10" />
         </Link>
       </div>
       <div>
