@@ -1,9 +1,12 @@
 import { Fragment } from "react";
+import TicketCard from "./(components)/TicketCard";
 
 export default function Home() {
   return (
     <Fragment>
-      <h1>Fullstack tickets app</h1>
+      <TicketCard />
+      <TicketCard />
+      <TicketCard />
     </Fragment>
   );
 }
