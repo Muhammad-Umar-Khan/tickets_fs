@@ -8,6 +8,7 @@ export default function Home() {
       <TicketCard />
       <TicketCard />
       <TicketCard />
+      <TicketCard />
     </Fragment>
   );
 }
