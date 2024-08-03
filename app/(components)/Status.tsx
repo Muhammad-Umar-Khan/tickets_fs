@@ -1,3 +1,3 @@
 const Status = () => {
-    return(<p>Statu</p>)
+    return(<p>Status</p>)
 }
