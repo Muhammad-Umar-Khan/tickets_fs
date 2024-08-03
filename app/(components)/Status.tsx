@@ -1,3 +1,5 @@
+import { Fragment } from "react";
+
 const Status = () => {
-    return(<p>Status</p>)
-}
+  return <Fragment>Status</Fragment>;
+};
