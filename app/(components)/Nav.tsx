@@ -9,7 +9,7 @@ const Nav = () => {
         <Link href="/">
           <FontAwesomeIcon icon={faHome} className="w-10 h-10" />
         </Link>
-        <Link href="ticket/new">
+        <Link href="ticket_new">
           <FontAwesomeIcon icon={faTicket} className="w-10 h-10" />
         </Link>
       </div>
