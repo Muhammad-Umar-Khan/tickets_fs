@@ -1,7 +1,5 @@
 import { Fragment } from "react";
 
-const Status = () => {
+export const Status = () => {
   return <Fragment>Status</Fragment>;
 };
-
-export default Status;
