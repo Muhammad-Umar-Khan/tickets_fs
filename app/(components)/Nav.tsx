@@ -14,7 +14,7 @@ const Nav = () => {
         </Link>
       </div>
       <div>
-        <p>umar@nineprimes.com</p>
+        <p>umar@ninepries.com</p>
       </div>
     </nav>
   );
