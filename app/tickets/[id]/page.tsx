@@ -1,9 +1,18 @@
+import Link from "next/link";
+
 type TicketProps = {
-  params: { id: string, q: string };
+  params: { id: string; q: string };
   // searchParams: {q: string}
 };
 const Ticket = ({ params }: TicketProps) => {
-  return <h1>Tickets {params.id} and query</h1>;
+  return (
+    <h1>
+      Tickets {params.id} and query
+      <Link href="/" className="underline">
+        Home
+      </Link>
+    </h1>
+  );
 };
 
 export default Ticket;
