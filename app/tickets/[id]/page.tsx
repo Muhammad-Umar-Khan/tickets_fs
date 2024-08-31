@@ -7,7 +7,7 @@ type TicketProps = {
 const Ticket = ({ params }: TicketProps) => {
   return (
     <h1>
-      Tickets {params.id} and
+      Tickets {params.id}
       <Link href="/" className="underline">
         Home
       </Link>
