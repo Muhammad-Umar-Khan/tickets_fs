@@ -8,7 +8,7 @@ const Ticket = ({ params }: TicketProps) => {
   return (
     <h1>
       Tickets {params.id}
-      <Link href="/" className="text-green-400">
+      <Link href="/" className="underline text-green-400">
         Home
       </Link>
     </h1>
