@@ -15,4 +15,4 @@ const Ticket = ({ params }: TicketProps) => {
   );
 };
 
-export default Ticket;
+export default ;
