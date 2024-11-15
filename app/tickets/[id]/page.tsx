@@ -9,7 +9,7 @@ const Ticket = ({ params }: TicketProps) => {
     <h1>
       Tickets {params.id}
       <Link href="/" className="underline text-green-400">
-        Home
+        
       </Link>
     </h1>
   );
